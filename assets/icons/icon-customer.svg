@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <circle cx="60" cy="40" r="15" fill="#F26522"/>
+
+  <!-- Body -->
+  <path d="M35 95 Q60 70 85 95 Z" fill="#0D47A1"/>
+
+  <!-- Shopping Bag -->
+  <rect x="50" y="65" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#F26522" stroke-width="3"/>
+  <path d="M52 65 Q60 55 68 65" fill="none" stroke="#F26522" stroke-width="3"/>
+
+  <!-- Base Line -->
+  <rect x="30" y="100" width="60" height="6" fill="#2E7D32"/>
+
+</svg>

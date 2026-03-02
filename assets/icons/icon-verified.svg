@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="5" y="5" width="110" height="110" rx="22" fill="#EEF3F8"/>
+
+  <!-- People -->
+  <circle cx="45" cy="55" r="12"
+          stroke="#0D47A1" stroke-width="4" fill="none"/>
+  <circle cx="75" cy="55" r="12"
+          stroke="#0D47A1" stroke-width="4" fill="none"/>
+
+  <path d="M30 85 Q45 70 60 85"
+        stroke="#0D47A1" stroke-width="4" fill="none"/>
+  <path d="M60 85 Q75 70 90 85"
+        stroke="#0D47A1" stroke-width="4" fill="none"/>
+
+  <!-- Shield -->
+  <path d="M60 35 L75 45 L75 65 Q60 80 45 65 L45 45 Z"
+        stroke="#0D47A1" stroke-width="4" fill="none"/>
+
+  <!-- Check -->
+  <circle cx="60" cy="55" r="10" fill="#F26522"/>
+  <path d="M55 55 L60 60 L67 50"
+        stroke="#ffffff" stroke-width="3" fill="none"
+        stroke-linecap="round"/>
+
+</svg>

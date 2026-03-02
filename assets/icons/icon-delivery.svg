@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Truck Body -->
+  <rect x="25" y="55" width="50" height="30" rx="6" fill="#F26522"/>
+
+  <!-- Truck Cabin -->
+  <rect x="75" y="65" width="20" height="20" rx="4" fill="#0D47A1"/>
+
+  <!-- Wheels -->
+  <circle cx="45" cy="90" r="8" fill="#2E7D32"/>
+  <circle cx="85" cy="90" r="8" fill="#2E7D32"/>
+
+  <!-- Motion Line -->
+  <line x1="20" y1="75" x2="10" y2="75" stroke="#0D47A1" stroke-width="4" stroke-linecap="round"/>
+
+</svg>

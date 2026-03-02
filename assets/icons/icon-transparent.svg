@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="5" y="5" width="110" height="110" rx="22" fill="#EEF3F8"/>
+
+  <!-- Document -->
+  <rect x="40" y="30" width="40" height="55" rx="6"
+        stroke="#0D47A1" stroke-width="4" fill="none"/>
+
+  <line x1="50" y1="45" x2="70" y2="45"
+        stroke="#0D47A1" stroke-width="4"/>
+  <line x1="50" y1="55" x2="70" y2="55"
+        stroke="#0D47A1" stroke-width="4"/>
+  <line x1="50" y1="65" x2="65" y2="65"
+        stroke="#0D47A1" stroke-width="4"/>
+
+  <!-- Magnifier -->
+  <circle cx="75" cy="75" r="12"
+          stroke="#0D47A1" stroke-width="4" fill="none"/>
+  <line x1="84" y1="84" x2="95" y2="95"
+        stroke="#0D47A1" stroke-width="4"/>
+
+  <!-- Focus Accent -->
+  <circle cx="75" cy="75" r="6" fill="#F26522"/>
+
+</svg>

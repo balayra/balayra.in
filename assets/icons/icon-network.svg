@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="5" y="5" width="110" height="110" rx="22" fill="#EEF3F8"/>
+
+  <!-- Store -->
+  <rect x="35" y="45" width="50" height="30" rx="6"
+        stroke="#0D47A1" stroke-width="4" fill="none"/>
+  <rect x="35" y="35" width="50" height="15" rx="6"
+        fill="#F26522"/>
+
+  <!-- Nodes -->
+  <circle cx="25" cy="90" r="6"
+          stroke="#0D47A1" stroke-width="4" fill="none"/>
+  <circle cx="60" cy="100" r="6"
+          stroke="#0D47A1" stroke-width="4" fill="none"/>
+  <circle cx="95" cy="90" r="6"
+          stroke="#0D47A1" stroke-width="4" fill="none"/>
+
+  <!-- Lines -->
+  <line x1="60" y1="75" x2="25" y2="90"
+        stroke="#0D47A1" stroke-width="4"/>
+  <line x1="60" y1="75" x2="95" y2="90"
+        stroke="#0D47A1" stroke-width="4"/>
+  <line x1="60" y1="75" x2="60" y2="100"
+        stroke="#0D47A1" stroke-width="4"/>
+
+</svg>

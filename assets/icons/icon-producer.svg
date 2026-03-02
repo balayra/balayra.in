@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket Base -->
+  <rect x="25" y="60" width="70" height="35" rx="8" fill="#F26522"/>
+
+  <!-- Basket Handle -->
+  <path d="M35 60 Q60 35 85 60" fill="none" stroke="#0D47A1" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Leaves -->
+  <path d="M55 45 Q60 35 65 45 Q60 50 55 45" fill="#2E7D32"/>
+  <path d="M45 50 Q50 40 55 50 Q50 55 45 50" fill="#2E7D32"/>
+  <path d="M65 50 Q70 40 75 50 Q70 55 65 50" fill="#2E7D32"/>
+
+  <!-- Base Line -->
+  <rect x="20" y="95" width="80" height="6" fill="#0D47A1"/>
+
+</svg>
