@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BALAYRA Login</title>
+</head>
+<body>
 
+<h2>Producer Login</h2>
+
+<input type="text" id="username" placeholder="Producer ID"><br><br>
+<input type="password" id="password" placeholder="Password"><br><br>
+
+<button onclick="login()">Login</button>
+
+<script>
+
+let users = [
+    {id: "PR001", pass: "1234"},
+    {id: "PR002", pass: "5678"}
+];
+
+function login() {
+    let user = document.getElementById("username").value;
+    let pass = document.getElementById("password").value;
+
+    let found = users.find(u => u.id === user && u.pass === pass);
+
+    if(found) {
+        localStorage.setItem("user", user);
+        window.location.href = "dashboard.html";
+    } else {
+        alert("Wrong ID or Password");
+    }
+}
+
+</script>
+
+</body>
+</html>
