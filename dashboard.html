@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BALAYRA Dashboard</title>
+</head>
+<body>
+
+<h1 id="welcome"></h1>
+<p id="role"></p>
+
+<button onclick="logout()">Logout</button>
+
+<script>
+
+// 🔐 User Data लाओ
+let data = JSON.parse(localStorage.getItem("userData"));
+
+// अगर login नहीं है → वापस भेजो
+if(!data){
+    window.location.href = "login.html";
+}
+
+// Welcome दिखाओ
+document.getElementById("welcome").innerText =
+    "Welcome " + data.name + " (" + data.id + ")";
+
+// Role दिखाओ
+document.getElementById("role").innerText =
+    "Role: " + data.role;
+
+
+// 🚪 Logout Function
+function logout(){
+    localStorage.removeItem("userData");
+    window.location.href = "login.html";
+}
+
+</script>
+
+</body>
+</html>
